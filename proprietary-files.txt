@@ -15,6 +15,7 @@ lib/lib_DNSe_EP_ver216c.so
 lib/lib_DNSe_NRSS_ver226.so
 lib/libymc_config.so
 lib/libymc_codecctrl.so
+lib/soundfx/libbundlewrapper.so
 etc/ymc/param/aec_adc.dat
 etc/ymc/param/aec_ae0_through.dat
 etc/ymc/param/aec_ae1_through.dat
@@ -302,6 +303,7 @@ etc/ymc/param/aec_sp_dac1.dat
 etc/audio_policy.conf
 etc/mixer_paths.xml
 etc/ysound.xml
+usr/share/alsa/alsa.conf
 
 ### Camera
 lib/hw/camera.universal5260.so:lib/hw/camera.vendor.universal5260.so
