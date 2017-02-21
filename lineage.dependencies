@@ -28,10 +28,6 @@
         "target_path": "kernel/samsung/smdk5260"
     },
     {
-        "repository": "android_vendor_samsung_smdk5260-common",
-        "target_path": "vendor/samsung/smdk5260-common"
-    },
-    {
         "repository": "android_external_stlport",
         "target_path": "external/stlport"
     }
