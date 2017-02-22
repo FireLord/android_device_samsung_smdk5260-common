@@ -701,9 +701,10 @@ service bttestdaemon /system/bin/bttestd
     oneshot
 
 # Charger
-service battery_charger /sbin/healthd -c
+service battery_charger /charger
     class charger
     critical
+    seclabel u:r:healthd:s0
 
 # SecEDS
 service TvoutService_C /system/bin/bintvoutservice
