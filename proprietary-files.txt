@@ -306,7 +306,7 @@ etc/ysound.xml
 usr/share/alsa/alsa.conf
 
 ### Camera
-lib/hw/camera.universal5260.so:lib/hw/camera.vendor.universal5260.so
+lib/hw/camera.universal5260.so:lib/hw/camera.vendor.universal5260.so|ad51fafca3605ef01b53359a41800a3742ac0ffc
 vendor/firmware/setfile_6b2.bin
 vendor/firmware/setfile_imx175.bin
 lib/libarccamera.so|09c77a87d95cc70799dd64c276ad6bc8a4edc417
