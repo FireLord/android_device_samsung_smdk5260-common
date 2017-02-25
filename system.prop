@@ -1,7 +1,3 @@
-# Audio
-af.fast_track_multiplier=1
-audio_hal.force_voice_config=wide
-
 # Camera
 camera2.portability.force_api=1
 media.stagefright.legacyencoder=true
