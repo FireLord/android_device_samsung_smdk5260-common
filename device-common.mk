@@ -28,6 +28,9 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     audio.r_submix.default \
     audio.primary.default \
+    audio.primary.universal5260 \
+    libtinycompress \
+    tinymix \
     libaudio-resampler \
 
 # Camera
