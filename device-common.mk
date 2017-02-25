@@ -21,7 +21,8 @@ PRODUCT_AAPT_PREBUILT_DPI := xhdpi hdpi
 
 # Audio
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/audio/audio_effects.conf:system/vendor/etc/audio_effects.conf
+    $(LOCAL_PATH)/configs/audio/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+    $(LOCAL_PATH)/configs/audio/mixer_paths_0.xml:system/etc/mixer_paths_0.xml
 
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
