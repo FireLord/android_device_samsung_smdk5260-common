@@ -48,3 +48,5 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 BOARD_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 TARGET_RECOVERY_FSTAB := device/samsung/smdk5260-common/twrp.fstab
 TW_THEME := portrait_hdpi
+TW_MTP_DEVICE := "/dev/mtp_usb"
+TW_INCLUDE_CRYPTO := true
